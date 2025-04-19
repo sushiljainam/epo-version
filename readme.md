@@ -1,9 +1,9 @@
 # EpochVer
 
 [![npm version](https://img.shields.io/npm/v/epochver.svg)](https://www.npmjs.com/package/epochver)
-[![Build Status](https://github.com/yourusername/epochver/workflows/Node.js%20Package/badge.svg)](https://github.com/yourusername/epochver/actions)
+[![Build Status](https://github.com/sushiljainam/epochver/workflows/Node.js%20Package/badge.svg)](https://github.com/sushiljainam/epochver/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Test Coverage](https://img.shields.io/codecov/c/github/yourusername/epochver)](https://codecov.io/gh/yourusername/epochver)
+[![Test Coverage](https://img.shields.io/codecov/c/github/sushiljainam/epochver)](https://codecov.io/gh/sushiljainam/epochver)
 
 A time-based versioning system using Unix epoch reference.
 

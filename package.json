@@ -39,10 +39,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/yourusername/epochver.git"
+        "url": "git+https://github.com/sushiljainam/epochver.git"
     },
     "bugs": {
-        "url": "https://github.com/yourusername/epochver/issues"
+        "url": "https://github.com/sushiljainam/epochver/issues"
     },
-    "homepage": "https://github.com/yourusername/epochver#readme"
+    "homepage": "https://github.com/sushiljainam/epochver#readme"
 }
