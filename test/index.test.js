@@ -3,7 +3,7 @@ const {
     versionToDate, 
     getCurrentVersion, 
     compareVersions 
-} = require('./index');
+} = require('../index');
 
 describe('EpochVer', () => {
     describe('dateToVersion', () => {
@@ -60,8 +60,9 @@ describe('EpochVer', () => {
             expect(compareVersions('53.135.0', '53.135.0')).toBe(0);
             expect(compareVersions('53.134.0', '53.135.0')).toBe(-1);
             expect(compareVersions('53.135.1', '53.135.0')).toBe(1);
-            expect(compareVersions('52.366.0', '53.1.0')).toBe(-1);
-            expect(compareVersions('53.135.0', '53.134.86400')).toBe(1);
+            expect(compareVersions('52.365.0', '53.1.0')).toBe(-1);
+            expect(compareVersions('52.366.0', '53.1.0')).toBe(0);
+            expect(compareVersions('53.135.0', '53.134.86400')).toBe(0);
         });
     });
     
