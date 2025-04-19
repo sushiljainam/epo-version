@@ -1,0 +1,23 @@
+{
+    "name": "epochver",
+    "version": "1.0.0",
+    "description": "Time-based versioning using Unix epoch reference (years.days.seconds)",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [
+    "version",
+    "versioning",
+    "epoch",
+    "unix",
+    "time",
+    "semver",
+    "alternative"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
